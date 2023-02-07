@@ -1,27 +1,25 @@
 import React from 'react';
+import './Header.css'
 
 function Header() {
     const styles = {
         header: {
-            display: 'flex',
-            justifyContent: 'spaceBetween',
-            alignItems: 'center',
-            padding: '1%',
-            width: '100' ,
-            fontWeight: '40',
-            backgroundColor: 'rgb(98, 153, 74)',
-            color: 'rgb(0,0,0)'
-
+            padding: '6%',
+            backgroundImage: 'url(./images/4925519.jpg)',
+            color: 'rgb(250 91 0 / 79%)',
+        },
+        name: {
+            backgroundColor: 'white',
         }
     }
 
-return (
-    <div>
-        <header style={styles.header}>
-            <h1>Valentina Guevara</h1>
-        </header>
-    </div>
-)
+    return (
+        <div>
+            <header style={styles.header} id="title">
+                <h1 style={styles.name} id='name'>Valentina Guevara</h1>
+            </header>
+        </div>
+    )
 }
 
 export default Header;

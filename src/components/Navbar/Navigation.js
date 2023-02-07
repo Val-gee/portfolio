@@ -1,7 +1,6 @@
 import React from 'react';
 
-function Navbar() {
-
+function Navbar({ setShowProjects, showProjects }) {
     function Aboutme(){
 
         var projects = document.querySelector('#projects');
@@ -14,15 +13,16 @@ function Navbar() {
         aboutme.style = "display: block";
     }
     function Projects(){
-        var aboutme = document.querySelector('.info');
-        var contact = document.querySelector('.contactform');
-        var resume = document.querySelector('.resume');
-        var projects = document.querySelector('#projects');
+        // var aboutme = document.querySelector('.info');
+        // var contact = document.querySelector('.contactform');
+        // var resume = document.querySelector('.resume');
+        // var projects = document.querySelector('#projects');
 
-        aboutme.style = "display: none";
-        contact.style = "display: none";
-        resume.style = "display: none";
-        projects.style = "display: block";
+        // aboutme.style = "display: none";
+        // contact.style = "display: none";
+        // resume.style = "display: none";
+        // projects.style = "display: block";
+        setShowProjects(!showProjects)
     }
     function Contact() {
         var aboutme = document.querySelector('.info');

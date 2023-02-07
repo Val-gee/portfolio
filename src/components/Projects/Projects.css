@@ -1,0 +1,67 @@
+:root {
+    --white: #fff;
+    --black: rgb(0,0,0);
+    --tan: rgb(254, 135, 67);
+    --green: rgb(98, 153, 74);
+    --lightgreen: rgb(172, 227, 184);
+    --darkgreen: rgb(10, 93, 10);
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    padding: 1.5rem;
+
+}
+.cimg {
+    background-image: url("../../../public/images/sky.jpeg");
+    background-position: center;
+    height: 182px;
+    margin-top: 50px;
+    width: 50%
+}
+
+.dimg {
+    box-sizing: border-box;
+    background-image: url('../../../public/images/newspaper.webp');
+    background-position: center;
+    background-size: 363px;
+    margin-top: 20px;
+    width: 50%
+
+}
+.work {
+    margin-bottom: 80px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+    color: var(--black);
+    outline: 2px dashed var(--tan);
+    outline-offset: -2px;
+    height: 144px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-body:hover {
+    box-shadow: inset 0px 0px 20px var(--darkgreen);
+}
+
+.card-header {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: var(--lightgreen);
+    border: 2px solid var(--tan);
+    border-radius: 8px;
+}
+
+.link {
+    text-decoration: none; 
+    color: var(--black);
+}

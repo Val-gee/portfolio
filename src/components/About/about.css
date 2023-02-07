@@ -1,0 +1,18 @@
+.photome {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 5px solid rgb(176, 194, 169);
+    width: 457px;
+    border-radius: 25px;
+}
+#abouttext {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 35px;
+    color: black;
+}
