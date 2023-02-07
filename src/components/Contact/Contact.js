@@ -19,7 +19,7 @@ export default function Contact() {
                 <input 
                 name='Message:'
                 type='text'
-                placeholder='Name'
+                placeholder='Message...'
                 />
             </form>
         </div>

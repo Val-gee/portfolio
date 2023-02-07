@@ -1,10 +1,6 @@
 import React from 'react';
 
 function Navbar() {
-    console.log(document.querySelector('#projects'));
-    console.log(document.querySelector('.contactform'));
-    console.log(document.querySelector('.resume'));
-    console.log(document.querySelector('.info'));
 
     function Aboutme(){
 
@@ -54,10 +50,10 @@ function Navbar() {
     return (
         <div>
             <div>
-                <a onClick={Aboutme} >About Me</a>
-                <a onClick={Projects} >Portfolio</a>
-                <a onClick={Contact} >Contact</a>
-                <a onClick={Resume} >Resume</a>
+                <button onClick={Aboutme} >About Me</button>
+                <button onClick={Projects} >Portfolio</button>
+                <button onClick={Contact} >Contact</button>
+                <button onClick={Resume} >Resume</button>
             </div>
         </div>
     )
