@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from './Navigation';
 
 function Header() {
     return (
@@ -7,9 +6,6 @@ function Header() {
             <header>
                 <h1>Guevara</h1>
             </header>
-            <nav>
-                <Navigation />
-            </nav>
         </div>
     )
 }

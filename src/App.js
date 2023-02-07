@@ -1,12 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
 import Projects from './components/Projects/Projects.js';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Aboutme from './components/About';
+import Header from './components/Header.js';
+import Navigation from './components/Navigation.js';
+import Footer from './components/Footer.js';
+import Aboutme from './components/About/About.js';
+import Contact from './components/Contact/Contact';
+import Resume from './components/Resume/Resume.js';
 
 
 function App() {
+
 
   return (
     <div className="App">
@@ -26,8 +30,11 @@ function App() {
       </header> */}
       <div>
         <Header />
+        <Navigation />
         <Aboutme />
         <Projects />
+        <Contact />
+        <Resume />
         <Footer />
       </div>
     </div>
