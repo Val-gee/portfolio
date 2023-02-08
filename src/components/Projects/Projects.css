@@ -9,18 +9,15 @@
 
 #projects {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-left: -1.5rem;
-    padding: 1.5rem;
-
+    flex-direction: column;
+    justify-content: center;
 }
 .cimg {
     background-image: url("../../../public/images/sky.jpeg");
     background-position: center;
     height: 182px;
     margin-top: 50px;
-    width: 50%
+    width: 50%;
 }
 
 .dimg {
@@ -29,8 +26,7 @@
     background-position: center;
     background-size: 363px;
     margin-top: 20px;
-    width: 50%
-
+    width: 50%;
 }
 .work {
     margin-bottom: 80px;
@@ -64,4 +60,7 @@
 .link {
     text-decoration: none; 
     color: var(--black);
+}
+
+@media (max-width: 500px) { 
 }

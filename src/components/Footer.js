@@ -7,17 +7,6 @@ import { FaFacebookSquare } from 'react-icons/fa'
 
 
 function Footer() {
-    // function initialDisplay() {
-    //     var projects = document.querySelector('#projects');
-    //     var contact = document.querySelector('.contactform');
-    //     var resume = document.querySelector('.resume');
-    //     var aboutme = document.querySelector('.info');
-    //     projects.style = "display: none";
-    //     contact.style = "display: none";
-    //     resume.style = "display: none";
-    //     aboutme.style = "display: block";
-    // }
-    // initialDisplay();
     const styles = {
         footer: {
             padding: '3%',

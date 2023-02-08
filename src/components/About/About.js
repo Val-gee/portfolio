@@ -4,8 +4,7 @@ import './about.css';
 export default function Aboutme() {
     return (
         <div className="info">
-            <h2 id="about-me">About Me</h2>
-            <img src='./images/me.jpeg' className='photome' alt='Visiting The Packing District in Anaheim,CA'></img>
+            <img src='./images/hpselfie.png' className='photome' alt='Visiting The Packing District in Anaheim,CA'></img>
             <p id='abouttext'>
                 <strong>Hello visitor!</strong> Thank you for taking time to visit my portfolio. I was born in Colombia in the mid 90s and came
                 to the sunny beaches of Hollywood, Florida. I dedicated most of my time to school and synchronized

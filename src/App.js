@@ -12,19 +12,44 @@ import { useState } from 'react';
 function App() {
 
   const [showProjects, setShowProjects] = useState(false);
+  const [showContact, setShowContact] = useState(false);
+  const [showResume, setShowResume] = useState(false);
+  const [showAbout, setShowAbout] = useState(true);
+
+
   return (
     <div className="App">
       <div>
         <Header />
-        <Navigation setShowProjects={setShowProjects} showProjects={showProjects}/>
-        <Aboutme />
+        <Navigation
+          setShowProjects={setShowProjects}
+          showProjects={showProjects}
+          setShowContact={setShowContact}
+          showContact={showContact}
+          setShowResume={setShowResume}
+          showResume={showResume}
+          setShowAbout={setShowAbout}
+          showAbout={showAbout}
+        />
+        {showAbout &&
+          <>
+            <Aboutme />
+          </>
+        }
         {showProjects &&
           <>
             <Projects />
           </>
         }
+        {showContact &&
+          <>
             <Contact />
+          </>
+        }{showResume &&
+          <>
             <Resume />
+          </>
+        }
         <Footer />
       </div>
     </div>
