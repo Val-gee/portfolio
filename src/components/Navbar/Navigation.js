@@ -1,4 +1,5 @@
 import React from 'react';
+import './Navigation.css'
 
 function Navbar({
     setShowProjects, showProjects,
@@ -7,15 +8,14 @@ function Navbar({
     showAbout, setShowAbout }) {
     function About() {
         setShowAbout(!showAbout)
+
         if (showProjects) {
             setShowProjects(!showProjects)
-        }
-        if (showContact) {
+        } else if (showContact) {
             setShowContact(!showContact)
-        }
-        if (showResume) {
+        } else if (showResume) {
             setShowResume(!showResume)
-        }
+        } 
     }
 
     function Projects() {
@@ -57,38 +57,17 @@ function Navbar({
 
     return (
         <div>
-            <div>
-                <button onClick={About}>About Me</button>
-                <button onClick={Projects} >Portfolio</button>
-                <button onClick={Contact} >Contact</button>
-                <button onClick={Resume} >Resume</button>
+            <div className="nav-btns">
+                <button className="btn btn-secondary btn-sm" type="button" data-bs-toggle="button" onClick={About}>About Me</button>
+                <button className="btn btn-secondary btn-sm" type="button" data-bs-toggle="button" onClick={Projects} >Projects</button>
+                <button className="btn btn-secondary btn-sm" type="button" data-bs-toggle="button" onClick={Contact} >Contact</button>
+                <button className="btn btn-secondary btn-sm" type="button" data-bs-toggle="button" onClick={Resume} >Resume</button>
             </div>
         </div>
     )
 }
 export default Navbar;
 
-
-// var aboutme = document.querySelector('.info');
-// var projects = document.querySelector('#projects');
-// var contact = document.querySelector('.contactform');
-// var resume = document.querySelector('.resume');
-// aboutme.style = "display: none";
-// projects.style = "display: none";
-// contact.style = "display: none";
-// resume.style = "display: block";
-
-
-
-
-// var projects = document.querySelector('#projects');
-// var contact = document.querySelector('.contactform');
-// var resume = document.querySelector('.resume');
-// var aboutme = document.querySelector('.info');
-// projects.style = "display: none";
-// contact.style = "display: none";
-// resume.style = "display: none";
-// aboutme.style = "display: block";
 
 
 

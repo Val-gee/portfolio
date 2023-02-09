@@ -4,21 +4,24 @@ import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FaFacebookSquare } from 'react-icons/fa'
+import { RiHeartsLine } from "react-icons/ri"
 
 
 function Footer() {
     const styles = {
         footer: {
-            padding: '3%',
+            padding: '10px',
             backgroundImage: 'url(./images/4925519.jpg)',
+            borderRadius: '25px'
         },
         icons: {
             color: 'rgb(o,o,o)',
-            fontSize: '54px'
+            fontSize: '65px'
         },
         author: {
             fontSize: '20px',
-            color: 'rgb(250 91 0 / 79%)',
+            color: 'rgb(250 91 0)',
+            paddingTop: '30px'
         }
     }
     return (
@@ -30,7 +33,7 @@ function Footer() {
                 <a href='https://www.facebook.com/valguevara0806' rel="noreferrer" target='_blank' style={{ color: "black", marginLeft: "45px"}}><FaFacebookSquare /></a>
             </div>
             <div style={styles.author}>
-                <p>Made with ♡ by Valentina</p>
+                <p>Made with <RiHeartsLine /> by Valentina</p>
             </div>
         </div>
     )

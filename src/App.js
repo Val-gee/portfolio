@@ -45,7 +45,8 @@ function App() {
           <>
             <Contact />
           </>
-        }{showResume &&
+        }
+        {showResume &&
           <>
             <Resume />
           </>
