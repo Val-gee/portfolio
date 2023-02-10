@@ -1,0 +1,38 @@
+.card {
+    width: 30rem;
+    font-family: 'Satisfy', cursive;
+    margin-top: 30px;
+    display: inline-block;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+
+.card-title {
+    line-height: 45px;
+    background-color: rgb(213, 243, 235);
+    border-radius: 25px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(250 91 0)
+}
+
+.details {
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.resume-link {
+    position: relative;
+    padding: 1rem 1rem;
+    background-color: rgb(213, 243, 235);
+    border-radius: 25px;
+    font-family: 'Satisfy', cursive;
+    font-size: 30px;
+    margin: 15px
+}

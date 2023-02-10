@@ -6,7 +6,7 @@ function Header() {
         header: {
             padding: '6%',
             backgroundImage: 'url(./images/4925519.jpg)',
-            color: 'rgb(250 91 0 / 79%)',
+            color: 'rgb(250 91 0)',
             borderRadius: '25px',
         },
         name: {
