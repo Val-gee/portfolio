@@ -6,7 +6,21 @@ export default function Projects() {
     return (
         <div >
             <div id='projects'>
-                <figure className="dimg card-column">
+                <figure className="aimg card-column">
+                    <h3 className="card-header">
+                        Hometown Hero
+                        <a href='https://github.com/pmorris50/HometownHero' target="_blank"
+                            rel='noreferrer' style={{ color: "black", marginLeft: "14px" }}><FaGithub />
+                        </a>
+                    </h3>
+                    <a className="link" target="_blank"
+                        href="https://hometownhero.herokuapp.com/" rel='noreferrer'>
+                        <div className="description">
+                            <h4 className='projectDescription'>MERN Stack Single-Page Application</h4>
+                        </div>
+                    </a>
+                </figure>
+                <figure className="bimg card-column">
                     <h3 className="card-header">
                         The Journal Post
                         <a href='https://github.com/jennahopeclem/self-journal' target="_blank"
@@ -34,6 +48,7 @@ export default function Projects() {
                         </div>
                     </a>
                 </figure>
+
             </div>
         </div>
 

@@ -21,9 +21,16 @@
     margin-top: 30px;
 }
 
-.dimg {
+.bimg {
     box-sizing: border-box;
     background-image: url('../../../public/images/newspaper.webp');
+    background-position: center;
+    background-size: 363px;
+}
+
+.aimg {
+    box-sizing: border-box;
+    background-image: url('../../../public/images/football3.jpeg');
     background-position: center;
     background-size: 363px;
 }
