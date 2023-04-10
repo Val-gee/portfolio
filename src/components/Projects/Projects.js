@@ -23,12 +23,12 @@ export default function Projects() {
                 <figure className="bimg card-column">
                     <h3 className="card-header">
                         The Journal Post
-                        <a href='https://github.com/jennahopeclem/self-journal' target="_blank"
+                        <a href='https://github.com/michelletrn/selfjournalpost' target="_blank"
                             rel='noreferrer' style={{ color: "black", marginLeft: "14px" }}><FaGithub />
                         </a>
                     </h3>
                     <a className="link" target="_blank"
-                        href="https://self-journal-post.herokuapp.com/" rel='noreferrer'>
+                        href="https://selfjournalpost.herokuapp.com/" rel='noreferrer'>
                         <div className="card-body description">
                             <h4 className='projectDescription'>MVC Paradigm Application that uses RESTful API's, MySQL, and Handlebars</h4>
                         </div>
