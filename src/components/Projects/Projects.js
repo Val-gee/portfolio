@@ -9,12 +9,12 @@ export default function Projects() {
                 <figure className="aimg card-column">
                     <h3 className="card-header">
                         Hometown Hero
-                        <a href='https://github.com/pmorris50/HometownHero' target="_blank"
+                        <a href='https://github.com/Val-gee/HometownHero' target="_blank"
                             rel='noreferrer' style={{ color: "black", marginLeft: "14px" }}><FaGithub />
                         </a>
                     </h3>
                     <a className="link" target="_blank"
-                        href="https://hometownhero.herokuapp.com/" rel='noreferrer'>
+                        href="https://yourhometownhero-d093725de416.herokuapp.com/" rel='noreferrer'>
                         <div className="description">
                             <h4 className='projectDescription'>MERN Stack Single-Page Application</h4>
                         </div>
