@@ -15,10 +15,10 @@ export default function Aboutme() {
                         disciplined and organized at a very young age and have continued to apply and sharpen those skills
                         my professional life. For that reason, I enjoy conquring challenges with a team and strive to improve the development of a project.
                         I currently reside in New Jersey with my boyfriend,
-                        Anthony, our poodle Chloe, our cat Bean, and our fish tanks. Anthony and I both enjoy outdoor activities and being a
-                        part of our local Jiu Jitsu community at Radji Barret Jiu Jitsu in Fords. It has been a great
-                        experience trying something new, aside from learning Web Development! Overall, I like to stay active
-                        and engage people in communities that share the same positive mindset.
+                        Anthony, our poodle Chloe, our cats, Bean and Sprout, and our two fish tanks. Anthony and I both enjoy outdoor activities and being a
+                        part of our Jiu Jitsu community at Rolles Gracie in Old Bridge. It has been a great
+                        experience trying something new, aside from learning front-and and back-end web development! Overall, I like to stay active
+                        and engage people in communities that share the same positive mindset!
                     </p>
                 </div>
             </div>
