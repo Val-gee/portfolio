@@ -21,7 +21,7 @@ export default function Resume() {
                 <div className='card-body'>
                     <h5 class="card-title">Career Goals</h5>
                     <p className='details'>
-                        I am a self-motivated team-player who is seeking a career opportunity in Web Development. I want to sharpen and grow the skills I learned during my Full Stack Coding Bootcamp at Rutgers University.
+                        I am a self-motivated team-player who is seeking a career opportunity in Web Development. I want to sharpen and grow the skills I originally learned during my Full Stack Coding Bootcamp at Rutgers University.
                     </p>
                 </div>
             </div>
@@ -38,7 +38,7 @@ export default function Resume() {
                     </ul>
                 </div>
             </div>
-            <div className='resume-link'><a href="https://docs.google.com/document/d/1j1U2CcL8XVhj7yY26YyiRqdeTYa0dVBP/edit" target='_blank' rel="noreferrer">Check out my full resume here!</a></div>
+            <div className='resume-link'><a href="https://docs.google.com/document/d/1qiK_znllWaHhbDhyFiKsqm1HmZHRYzpHewY7xj84VZo/edit?usp=sharing" atl="Link to Valentina Guevara's Resume" target='_blank' rel="noreferrer">Check out my full resume here!</a></div>
         </div>
     )
 }
